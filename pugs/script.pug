@@ -1,0 +1,5 @@
+mixin script(srcTxt, isModule=false)
+    if(isModule)
+        script(src=srcTxt, type="module")
+    else
+        script(src=srcTxt)
